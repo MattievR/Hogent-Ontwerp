@@ -1,4 +1,3 @@
-# Hogent-Ontwerp
 
 
 Groepswerk voor het vak Ontwerp.
