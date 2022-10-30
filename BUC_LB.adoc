@@ -1,0 +1,51 @@
+:author: Arnar Van Rysselberghe, Toon Van de Voorde, Nathalie Van Bellegem, Maxime Vierstraete, Mathias Van Rumst
+:revnumber: v1.0
+:title: BUC Schooladministratie
+
+== BUC_LB Lessenrooster Bekijken
+
+=== Actors
+
+**Student**, Coördinator, Admin, Docent , Secretariaatsmedewerker
+
+=== Preconditie
+
+De primaire actor is reeds ingeschreven en gekend bij de schooladministratie
+
+
+=== Basispad
+
+. De [.underline]#student#, coördinator, admin , docent wil bepaalde lessenroosters bekijken.
+
+. De [.underline]#student#, coördinator, admin , docent begeeft zich naar de secretariaatsmedewerker.
+
+. De [.underline]#secretariaatsmedewerker# gaat na of de gebruiker een geldige inschrijving heeft.
+
+. De [.underline]#secretariaatsmedewerker# gaat na welke rechten de gebruiker heeft.
+
+. De [.underline]#secretariaatsmedewerker# verleent toegang tot de lessenroosters.
+
+. De use case eindigt.
+
+
+
+**Postconditie**
+
+Men kan de lessenroosters bezichtigen.
+
+=== Alternatief A: Stoppen
+
+
+*Postconditie*
+
+-
+
+=== Alternatief B:
+
+*Postconditie*
+
+-
+
+
+
+-

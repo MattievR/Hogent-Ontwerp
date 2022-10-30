@@ -1,0 +1,32 @@
+:author: Arnar Van Rysselberghe, Toon Van de Voorde, Nathalie Van Bellegem, Maxime Vierstraete, Mathias Van Rumst
+:revnumber: v1.0
+:title: BUC Lessenrooster Ingeven
+
+== BUC_LI - Lessenrooster Ingeven
+
+De coördinator wilt het lessenrooster ingeven
+
+=== Actors
+
+**Coördinator**, secretariaatsmedewerker
+
+=== Preconditie
+-
+
+=== Basispad
+
+. De [.underline]#coördinator# wilt het lessenrooster ingeven.
+. De [.underline]#coördinator# kijkt de gegevens na voor het lessenrooster.
+. De [.underline]#coördinator# voegt de les toe aan het lessenrooster.
+. De [.underline]#coördinator# voegt het startuur en einduur toe aan het lessenrooster.
+. De [.underline]#coördinator# voegt de datum toe aan het lessenrooster.
+. De [.underline]#coördinator# voegt het lokaal toe aan het lessenrooster.
+. De [.underline]#coördinator# voegt de docent toe aan het lessenrooster.
+. De [.underline]#coördinator# voegt het module toe aan het lessenrooster.
+. De [.underline]#coördinator# kijkt alles nog eens goed na.
+. De [.underline]#coördinator# geeft het door aan de secretariaatsmedewerker.
+. De use case eindigt.
+
+**Postconditie**
+
+Het lessenrooster is ingegeven.
