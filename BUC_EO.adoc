@@ -1,24 +1,40 @@
-== BUC_EO - Evaluatie Opvragen
-De student wilt zijn evaluatie opvragen
+:author: Arnar Van Rysselberghe, Toon Van de Voorde, Nathalie Van Bellegem, Maxime Vierstraete, Mathias Van Rumst
+:revnumber: v1.1
+:title: BUC Schooladministratie
+
+= BUC_EO - Evaluatie Opvragen
+Een persoon wilt een evaluatie opvragen
 
 === Actors
 
-**Student**, ??????
+**Student**, secretariaatsmedewerker, ?docent? 
 
 === Preconditie
-Geen
+
+-
 
 === Basispad
 
-. De [.underline]#Student# wilt zijn evaluatie opvragen
-. De [.underline]#Student# authenticeert zich met zijn gebruikersgegevens en logt in.
-. De [.underline]#Student# vraagt zijn evaluaties op.
-. De [.underline]#Student# verkrijgt zijn evaluaties met bijhorende feedback.
-. De [.underline]#Student# is tevreden met zijn resultaat.
-. De [.underline]#Student# sluit het programma af.
+. Een [.underline]#persoon# wilt zijn evaluatie bekijken.
+. De [.underline]#secretariaatsmedewerker# vraagt de [.underline]#persoon# zichzelf te identificeren.
+. De [.underline]#student# authenticeert zich met zijn studentenkaart.
+. De [.underline]#student# vraagt zijn evaluaties op.
+. De [.underline]#student# verkrijgt zijn evaluaties met bijhorende feedback.
 . De use case eindigt
 
 === postconditie
 
 -
 
+=== Uitzondering A: Geen geldige studentenkaart
+
+[start=3]
+. de persoon heeft geen geldige studentenkaart
+. de use case eindigt 
+
+=== Alternatief A: De persoon is een docent
+[start=3]
+. de [.underline]#docent# authenticeert zich met zijn docentenkaart.
+. de [.underline]#docent# vraagt de evaluaties van zijn [.underline]#studenten# op.
+. de [.underline]#docent# verkrijgt de evaluaties.
+. de use case eindigt
