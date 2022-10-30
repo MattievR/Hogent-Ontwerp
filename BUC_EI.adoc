@@ -1,9 +1,9 @@
 :author: Arnar Van Rysselberghe, Toon Van de Voorde, Nathalie Van Bellegem, Maxime Vierstraete, Mathias Van Rumst
-:revnumber: v1.1
+:revnumber: v1.2
 :title: BUC Schooladministratie
 
 == BUC_EI - Evaluatie Ingeven
-De Docent wilt een eindevaluatie van een student ingeven
+De docent wilt een evaluatie van een student ingeven
 
 === Actors
 
@@ -11,18 +11,18 @@ De Docent wilt een eindevaluatie van een student ingeven
 
 === Preconditie
 
+-
 
 === Basispad
 
-. De [.underline]#Docent# wilt een evaluatie van een student ingeven.
-. De [.underline]#Docent# controleert of de student correct is ingeschreven.
-. De [.underline]#Docent# overloopt alle testen van de student.
-. De [.underline]#Docent# noteert een score van 0-20.
-. De [.underline]#Docent# noteert feedback.
-. De [.underline]#Docent# controleert of hij alles goed heeft ingevuld.
-. De [.underline]#Docent# geeft de evaluatie af aan de [.underline]#secretariaatsmedewerker#.
+. De [.underline]#docent# wilt een evaluatie van een [.underline]#student# ingeven.
+. De [.underline]#docent# overloopt alle testen van de [.underline]#student#.
+. De [.underline]#docent# noteert een score van 0-20.
+. De [.underline]#docent# noteert feedback.
+. De [.underline]#docent# controleert of hij alles goed heeft ingevuld.
+. De [.underline]#docent# geeft de evaluatie af aan de [.underline]#secretariaatsmedewerker#.
 . De use case eindigt.
 
 === postconditie
 
-De student heeft een eindevaluatie gekregen van de Docent.
+De docent heeft een evaluatie aangemaakt.
