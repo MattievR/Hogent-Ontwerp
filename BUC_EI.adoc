@@ -19,7 +19,6 @@ De docent wilt een evaluatie van een student ingeven
 . De [.underline]#docent# overloopt alle testen van de [.underline]#student#.
 . De [.underline]#docent# noteert een score van 0-20.
 . De [.underline]#docent# noteert feedback.
-. De [.underline]#docent# controleert of hij alles goed heeft ingevuld.
 . De [.underline]#docent# geeft de evaluatie af aan de [.underline]#secretariaatsmedewerker#.
 . De use case eindigt.
 
