@@ -19,7 +19,7 @@ De docent heeft een namenlijst van de klasgroep van het secretariaat
 . De [.underline]#docent# wil de aanwezigheden van de [.underline]#studenten# opnemen volgens xref:domeinregels.adoc#AO[DR_AO] 
 . De [.underline]#docent# neemt de klassenlijst.
 . De [.underline]#docent# roept de naam van de [.underline]#student# .
-. De [.underline]#student# Zegt dat hij of zij aanwezig is .
+. De [.underline]#student# zegt dat hij of zij aanwezig is .
 . De [.underline]#docent# noteert dat de [.underline]#student# aanwezig is.
 . De [.underline]#docent# herhaalt stappen 3, tot en met 5 tot alle namen zijn afgelopen.
 . De [.underline]#docent# geeft de klassenlijst aan de [.underline]#secretariaatsmedewerker#
@@ -33,7 +33,7 @@ De namenlijst van de klasgroep is ingevuld.
 [start =3]
 . De [.underline]#student# geeft geen antwoord.
 . De [.underline]#docent# noteert dat de [.underline]#student# afwezig is.
-. De use case Keert terug naar het basispad op stap 6.
+. De use case keert terug naar het basispad op stap 6.
 
 *Postconditie*
 
