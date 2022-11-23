@@ -16,7 +16,7 @@ De docent heeft een namenlijst van de klasgroep van het secretariaat
 
 === Basispad
 
-. De [.underline]#docent# wil de aanwezigheden van de [.underline]#studenten# opnemen
+. De [.underline]#docent# wil de aanwezigheden van de [.underline]#studenten# opnemen volgens xref:domeinregels.adoc#AO[DR_AO] 
 . De [.underline]#docent# neemt de klassenlijst.
 . De [.underline]#docent# roept de naam van de [.underline]#student# .
 . De [.underline]#student# Zegt dat hij of zij aanwezig is .
@@ -32,7 +32,8 @@ De namenlijst van de klasgroep is ingevuld.
 === Alternatief A: Student is afwezig
 [start =3]
 . De [.underline]#student# geeft geen antwoord.
-. De use case eindigt.
+. De [.underline]#docent# noteert dat de [.underline]#student# afwezig is.
+. De use case Keert terug naar het basispad op stap 6.
 
 *Postconditie*
 
