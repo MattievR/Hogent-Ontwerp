@@ -1,17 +1,17 @@
 :author: Arnar Van Rysselberghe, Toon Van de Voorde, Nathalie Van Bellegem, Maxime Vierstraete, Mathias Van Rumst
-:revnumber: v1.5
+:revnumber: v1.6
 :title: BUC BUC_AO - aanwezigheden opnemen
 
 == BUC_AO - aanwezigheden opnemen
 
-De docent registreert de aanwezigheden van de studenten
+De docent registreert de aanwezigheden van alle studenten
 
 === Actors
 
 **Docent**, Student, Secretariaatsmedewerker
 
 === Preconditie
-De student is ingeschreven voor het opleidingsonderdeel
+De docent heeft een namenlijst van de klasgroep van het secretariaat
 
 
 === Basispad
@@ -19,24 +19,22 @@ De student is ingeschreven voor het opleidingsonderdeel
 . De [.underline]#docent# wil de aanwezigheden van de [.underline]#studenten# opnemen
 . De [.underline]#docent# neemt de klassenlijst.
 . De [.underline]#docent# roept de naam van de [.underline]#student# .
-. De [.underline]#student# geeft zijn studentenkaart aan de [.underline]#docent# .
-. De [.underline]#docent# controleert of de naam van de [.underline]#student# correct is.
+. De [.underline]#student# Zegt dat hij of zij aanwezig is .
 . De [.underline]#docent# noteert dat de [.underline]#student# aanwezig is.
+. De [.underline]#docent# herhaalt stappen 3, tot en met 5 tot alle namen zijn afgelopen.
 . De [.underline]#docent# geeft de klassenlijst aan de [.underline]#secretariaatsmedewerker#
 . De use case eindigt.
 
 **Postconditie**
+De namenlijst van de klasgroep is ingevuld.
 
-De student is geregistreerd als aanwezig.
 
 === Alternatief A: Student is afwezig
-. De [.underline]#student# komt niet naar voren als deze geroepen wordt.
+[start =3]
+. De [.underline]#student# geeft geen antwoord.
 . De use case eindigt.
 
 *Postconditie*
 
--
+-Student is geregistreerd als afwezig.
 
-=== Alternatief B: De student heeft zijn studentenkaart niet bij
-. De [.underline]#docent# kan niet bevestigen dat de aanwezige student ingeschreven is.
-. De use case eindigt.

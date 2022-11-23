@@ -1,17 +1,17 @@
 :author: Arnar Van Rysselberghe, Toon Van de Voorde, Nathalie Van Bellegem, Maxime Vierstraete, Mathias Van Rumst
-:revnumber: v1
+:revnumber: v1.1
 :title: SUC SUC_AO - aanwezigheden opnemen
 
 == BUC_AO - aanwezigheden opnemen
 
-De docent registreert de aanwezigheden van de studenten
+De docent registreert de aanwezigheden van alle studenten
 
 === Actors
 
 **Docent**, Student, Secretariaatsmedewerker
 
 === Preconditie
-De student is ingeschreven voor het opleidingsonderdeel
+De docent heeft een namenlijst van de klasgroep van het secretariaat
 
 
 === Basispad
@@ -22,12 +22,24 @@ De student is ingeschreven voor het opleidingsonderdeel
 . De [.underline]#student# geeft zijn studentenkaart aan de [.underline]#docent# .
 . De [.underline]#docent# controleert of de naam van de [.underline]#student# correct is.
 . De [.underline]#docent# noteert dat de [.underline]#student# aanwezig is.
+. De [.underline]#docent# herhaalt stappen 3, tot en met 6 tot alle namen zijn afgelopen.
 . De [.underline]#docent# geeft de klassenlijst aan de [.underline]#secretariaatsmedewerker#
 . De use case eindigt.
 
 **Postconditie**
+De namenlijst van de klasgroep is ingevuld.
 
 
+=== Alternatief A: Student is afwezig
+. De [.underline]#student# komt niet naar voren als deze geroepen wordt.
+. De use case eindigt.
 
 *Postconditie*
+
+-
+
+=== Alternatief B: De student heeft zijn studentenkaart niet bij
+. De [.underline]#docent# kan niet bevestigen dat de aanwezige student ingeschreven is.
+. De use case eindigt.
+
 
