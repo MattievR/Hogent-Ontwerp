@@ -2,15 +2,15 @@
 
 === DR_MJ meerderjarig
 [id=MJ]
-* De student is meerderjarig
+* De student moet meerderjarig zijn op het moment van inschrijving
 
 === DR_DS diploma secundair
 [id=DS]
-* De student beschikt over een diploma secundair
+* De student moet beschikken over een diploma van het secundair onderwijs
 
-=== DR_IO ingeschreven onderdeel
-[id=IO]
-* De student is ingeschreven voor het opleidingsonderdeel
+=== DR_MP maximum plaatsen
+[id=MP]
+* Er is een maximum aantal plaatsen in een module en deze mag niet overschreden worden.
 
 === DR_AO
 [id=AO]
