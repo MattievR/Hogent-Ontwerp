@@ -12,4 +12,6 @@
 [id=IO]
 * De student is ingeschreven voor het opleidingsonderdeel
 
-
+=== DR_AO
+[id=AO]
+* De docent registreert de aanwezigheden aan in het begin van de les
